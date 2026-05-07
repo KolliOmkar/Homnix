@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Homnix</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+
+    body{
+      margin:0;
+      font-family:Arial;
+      background:#ffffff;
+    }
+
+    .navbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px;
+      border-bottom:1px solid #eee;
+    }
+
+    .logo{
+      font-size:32px;
+      font-weight:bold;
+      color:#7c3aed;
+    }
+
+    .button{
+      background:#7c3aed;
+      color:white;
+      padding:14px 24px;
+      border:none;
+      border-radius:14px;
+      font-size:16px;
+    }
+
+    .hero{
+      text-align:center;
+      padding:80px 20px;
+      background:linear-gradient(to bottom,#f3e8ff,#ffffff);
+    }
+
+    .hero h1{
+      font-size:48px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:20px;
+      color:#666;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:20px;
+      padding:20px;
+      max-width:900px;
+      margin:auto;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      border-radius:24px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.05);
+    }
+
+    .booking{
+      max-width:700px;
+      margin:50px auto;
+      padding:30px;
+      background:white;
+      border-radius:24px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.05);
+    }
+
+    input,select{
+      width:100%;
+      padding:16px;
+      margin-bottom:16px;
+      border-radius:14px;
+      border:1px solid #ddd;
+    }
+
+    .upi{
+      background:#f3e8ff;
+      padding:18px;
+      border-radius:18px;
+      margin-bottom:20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <div class="logo">
+      Homnix
+    </div>
+
+    <button class="button">
+      Book Now
+    </button>
+
+  </div>
+
+  <div class="hero">
+
+    <h1>
+      All Services.<br>
+      One Trusted Platform.
+    </h1>
+
+    <p>
+      Professional Home Services in Padmarao Nagar
+    </p>
+
+  </div>
+
+  <div class="services">
+
+    <div class="card">
+      <h2>Cleaning</h2>
+      <p>Fast cleaning services.</p>
+    </div>
+
+    <div class="card">
+      <h2>Plumbing</h2>
+      <p>Trusted plumbing experts.</p>
+    </div>
+
+    <div class="card">
+      <h2>Electrician</h2>
+      <p>Safe electrical repairs.</p>
+    </div>
+
+    <div class="card">
+      <h2>Painting</h2>
+      <p>Interior painting services.</p>
+    </div>
+
+  </div>
+
+  <div class="booking">
+
+    <h2>Book a Service</h2>
+
+    <input placeholder="Your Name">
+
+    <input placeholder="Phone Number">
+
+    <select>
+      <option>Select Service</option>
+      <option>Cleaning</option>
+      <option>Plumbing</option>
+      <option>Electrician</option>
+      <option>Painting</option>
+    </select>
+
+    <div class="upi">
+      <h3>Pay via UPI</h3>
+      <p>homnix@upi</p>
+    </div>
+
+    <button class="button" style="width:100%">
+      Confirm Booking
+    </button>
+
+  </div>
+
+</body>
+</html>
